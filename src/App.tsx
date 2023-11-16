@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Mainpage from './pages/Mainpage'
+import Register from './pages/Register'
+import Navbar from './components/Navbar'
+import Bookspage from './pages/Bookspage'
+import MyPage from './pages/MyPage'
+import UserSettings from './pages/UserSettings'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className='content'>
+        <Navbar />
+        <Mainpage />
+        <Register />
+        <Bookspage />
+        <MyPage />
+        <UserSettings />
+      </div>
+      </div>)
 }
 
-export default App;
+export default App
