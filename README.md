@@ -2,7 +2,7 @@
 This was written with the React, combined with Tailwind CSS for styling (with a little bit of DaisyUI), and Typescript for syntax for types.
 
 ## How to start the project
-In the project directory, run:
+In the project directory, run:\
 ```npm install```
 
 then
