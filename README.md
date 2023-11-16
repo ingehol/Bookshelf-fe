@@ -3,11 +3,11 @@ This was written with the React, combined with Tailwind CSS for styling (with a 
 
 ## How to start the project
 In the project directory, run:
-### `npm install`
+```npm install```
 
 then
 
-### `npm start`
+```npm start```
 
 The app now Runs in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
